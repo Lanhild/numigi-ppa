@@ -1,0 +1,36 @@
+Package: grub-theme-numigi
+Version: 1.0
+Architecture: all
+Maintainer: @Lanhild <archlan@protonmail.com>
+Installed-Size: 2404
+Depends: grub2-common
+Filename: ./grub-theme-numigi-1.0-any.deb
+Size: 1185084
+MD5sum: 8bf52e5af27256490e0bacfb27b70d0d
+SHA1: 6d67c2dfcb7e6f40ab6d062ab0fb1d3a64a50d93
+SHA256: 31dc6800a82752f1a2039653012ceb0eaca2711f6e8ee1fbcd5e53a1ccb0e4f1
+Section: default
+Priority: extra
+Homepage: https://github.com/Lanhild/grub-theme-numigi
+Description: Numigi GRUB bootloader customized theme
+License: agpl3
+Vendor: none
+
+Package: numigi-meta
+Version: 1.0
+Architecture: all
+Maintainer: @Lanhild <archlan@protonmail.com>
+Installed-Size: 0
+Depends: grub-theme-numigi
+Filename: ./numigi-meta-1.0-any.deb
+Size: 1050
+MD5sum: 351baab43c0db7e0563e1d99dbe1f0ab
+SHA1: 37e913374985a3e9a3f380206ba285e26248eb6b
+SHA256: fd6242366b489fa1db6d2e4dc411cb0d09691327876a07e8955dbb0d6f3b4746
+Section: default
+Priority: extra
+Homepage: https://github.com/Lanhild/numigi-meta
+Description: Numigi metapackage used to install a group of packages present in the main repository
+License: agpl3
+Vendor: none
+
