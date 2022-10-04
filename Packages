@@ -34,3 +34,21 @@ Description: Numigi metapackage used to install a group of packages present in t
 License: agpl3
 Vendor: none
 
+Package: numigi-meta
+Version: 1.1
+Architecture: all
+Maintainer: @Lanhild <archlan@protonmail.com>
+Installed-Size: 0
+Depends: grub-theme-numigi, libreoffice, flameshot, kazam, gimp, vlc, deja-dup, peek, firefox
+Filename: ./numigi-meta-1.1-any.deb
+Size: 1104
+MD5sum: 110499d4f732347873d06e9692fa1dc3
+SHA1: 4bab84bfb5fc878a6fbe97d3e77c7530299a8223
+SHA256: 2636bba595eafb6f94f85833e06def71beecb055fda40c76934ab544cd6fc265
+Section: default
+Priority: extra
+Homepage: https://github.com/Lanhild/numigi-meta
+Description: Numigi metapackage used to install a group of packages present in the main repository
+License: agpl3
+Vendor: none
+
