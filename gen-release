@@ -1,0 +1,42 @@
+#!/bin/sh
+# See https://github.com/Lanhild/numigi-ppa
+# Helper script used to generate release of deb packages repository
+set -a
+source ./.env
+set +a
+
+# Enum package list into the Packages archive file
+scan_packages() {
+    dpkg-scanpackages --multiversion . > Packages
+    gzip -k -f Packages
+}
+
+gen_rel() {
+    apt-ftparchive release . > release
+    gpg --default-key "${EMAIL}" -abs -o Release > Release.gpg
+    gpg --default-key "${EMAIL}" --clearsign -o - Release > InRelease
+}
+
+prompt_msg() {
+    echo "To add this repository to your machine, enter the following commands:
+
+    sudo apt install apt-transport-https curl
+
+    sudo curl -fsSLo /etc/apt/trusted.gpg.d/numigi-ppa-keyring.asc https://lanhild.github.io/numigi-ppa/KEY.asc
+
+    echo 'deb [signed-by=/etc/apt/trusted.gpg.d/numigi-ppa-keyring.asc arch=amd64] https://lanhild.github.io/numigi-ppa/ ./' |sudo tee /etc/apt/sources.list.d/numigi_ppa.list
+
+    sudo apt update"
+}
+
+main() {
+    echo "Scanning for packages..."
+    scan_packages
+
+    echo "Creating a new package release..."
+    gen_rel
+
+    prompt_msg
+}
+
+    echo ""

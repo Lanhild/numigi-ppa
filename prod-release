@@ -1,0 +1,15 @@
+#!/bin/sh
+# See https://github.com/Lanhild/numigi-ppa
+# Helper script used to generate release of deb packages repository
+set -a
+source ./.env
+set +a
+
+# Pushing changes to prod
+[[ -d ./.git ]] && {
+    git add .
+    git commit -m "${COMMIT_MSG}"
+    git push -u origin main
+}
+
+echo "Pushing changes to Github..."
