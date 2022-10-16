@@ -16,6 +16,41 @@ Description: Numigi GRUB bootloader customized theme
 License: agpl3
 Vendor: none
 
+Package: numigi-albert
+Version: 1.0
+Architecture: all
+Maintainer: @Lanhild <archlan@protonmail.com>
+Installed-Size: 0
+Filename: ./numigi-albert-1.0-any.deb
+Size: 2008
+MD5sum: f957e061fb4054d2dd518e78a442025f
+SHA1: 662a1fc2240d54ce77010e91accaef90a77b3252
+SHA256: 5123e1c34e85b467d9b7214c90ffc0759a51d9a5608bc6ca40d198ca23410bd4
+Section: default
+Priority: extra
+Homepage: https://github.com/Lanhild/numigi-albert
+Description: Numigi installation script for Albert application launcher. Fetches from albertlauncher.github.io
+License: agpl3
+Vendor: none
+
+Package: numigi-brave
+Version: 1.0
+Architecture: all
+Maintainer: @Lanhild <archlan@protonmail.com>
+Installed-Size: 0
+Depends: apt-transport-https, curl
+Filename: ./numigi-brave-1.0-any.deb
+Size: 1978
+MD5sum: a858c79a299901751fdb0e8c8ece80b7
+SHA1: 023be422cc237cb0e3730d5e9c34ad38a7cd1a91
+SHA256: 7946304563ea6a58f6faed23291c48c0701e1eb0e64ff1ced1ddf83fdb4dd850
+Section: default
+Priority: extra
+Homepage: https://github.com/Lanhild/numigi-brave
+Description: Numigi installation script for Brave Browser. Fetches from brave.com
+License: agpl3
+Vendor: none
+
 Package: numigi-meta
 Version: 1.0
 Architecture: all
@@ -49,6 +84,24 @@ Section: default
 Priority: extra
 Homepage: https://github.com/Lanhild/numigi-meta
 Description: Numigi metapackage used to install a group of packages present in the main repository
+License: agpl3
+Vendor: none
+
+Package: numigi-meta
+Version: 1.2
+Architecture: all
+Maintainer: @Lanhild <archlan@protonmail.com>
+Installed-Size: 0
+Depends: libreoffice, flameshot, kazam, gimp, vlc, deja-dup, peek, firefox, grub-theme-numigi, numigi-brave, numigi-albert
+Filename: ./numigi-meta-1.2-any.deb
+Size: 2038
+MD5sum: 225a2a6e806ef42201ffc6a32f7ae8b8
+SHA1: fbc760ba745bc02b1416c33268ef3b0b4e097526
+SHA256: 4e00e3bfe75905517e50c9ee128bce840b4f414f2c9f9f3c5a7e0cb6f552d6b0
+Section: default
+Priority: extra
+Homepage: https://github.com/Lanhild/numigi-meta
+Description: Numigi blank metapackage used to install a group of packages present in the main repository
 License: agpl3
 Vendor: none
 
