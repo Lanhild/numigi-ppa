@@ -15,14 +15,14 @@ do_hash() {
 }
 
 cat << EOF
-Origin: Example Repository
-Label: Example
+Origin: Numigi repository
+Label: numigi-ppa
 Suite: stable
 Codename: stable
 Version: 1.0
 Architectures: amd64 arm64 arm7
 Components: main
-Description: An example software repository
+Description: Numigi custom packages repository
 Date: $(date -Ru)
 EOF
 do_hash "MD5Sum" "md5sum"
