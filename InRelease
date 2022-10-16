@@ -1,0 +1,53 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Origin: Numigi Packages
+Label: numigi-ppa
+Suite: stable
+Codename: stable
+Version: 1.0
+Architectures: amd64 arm64 arm7
+Components: main
+Description: Numigi custom packages repository
+Date: Sun, 16 Oct 2022 20:07:28 +0000
+MD5Sum:
+ f957e061fb4054d2dd518e78a442025f 2008 numigi-albert-1.0-any.deb
+ a858c79a299901751fdb0e8c8ece80b7 1978 numigi-brave-1.0-any.deb
+ 351baab43c0db7e0563e1d99dbe1f0ab 1050 numigi-meta-1.0-any.deb
+ 110499d4f732347873d06e9692fa1dc3 1104 numigi-meta-1.1-any.deb
+ 225a2a6e806ef42201ffc6a32f7ae8b8 2038 numigi-meta-1.2-any.deb
+ d3d5ee8979811355eade8d58920fa987 2610 numigi-meta-1.3-any.deb
+ 8bf52e5af27256490e0bacfb27b70d0d 1185084 grub-theme-numigi-1.0-any.deb
+SHA1:
+ 662a1fc2240d54ce77010e91accaef90a77b3252 2008 numigi-albert-1.0-any.deb
+ 023be422cc237cb0e3730d5e9c34ad38a7cd1a91 1978 numigi-brave-1.0-any.deb
+ 37e913374985a3e9a3f380206ba285e26248eb6b 1050 numigi-meta-1.0-any.deb
+ 4bab84bfb5fc878a6fbe97d3e77c7530299a8223 1104 numigi-meta-1.1-any.deb
+ fbc760ba745bc02b1416c33268ef3b0b4e097526 2038 numigi-meta-1.2-any.deb
+ 9b6ec52fc984a7bb88db8bda16c24d1a4f204a9d 2610 numigi-meta-1.3-any.deb
+ 6d67c2dfcb7e6f40ab6d062ab0fb1d3a64a50d93 1185084 grub-theme-numigi-1.0-any.deb
+SHA256:
+ 5123e1c34e85b467d9b7214c90ffc0759a51d9a5608bc6ca40d198ca23410bd4 2008 numigi-albert-1.0-any.deb
+ 7946304563ea6a58f6faed23291c48c0701e1eb0e64ff1ced1ddf83fdb4dd850 1978 numigi-brave-1.0-any.deb
+ fd6242366b489fa1db6d2e4dc411cb0d09691327876a07e8955dbb0d6f3b4746 1050 numigi-meta-1.0-any.deb
+ 2636bba595eafb6f94f85833e06def71beecb055fda40c76934ab544cd6fc265 1104 numigi-meta-1.1-any.deb
+ 4e00e3bfe75905517e50c9ee128bce840b4f414f2c9f9f3c5a7e0cb6f552d6b0 2038 numigi-meta-1.2-any.deb
+ a29c609fd493a945ca893f204378f54ddb06450fc0c595c9660879cec7e13501 2610 numigi-meta-1.3-any.deb
+ 31dc6800a82752f1a2039653012ceb0eaca2711f6e8ee1fbcd5e53a1ccb0e4f1 1185084 grub-theme-numigi-1.0-any.deb
+-----BEGIN PGP SIGNATURE-----
+
+iQJLBAEBCAA1FiEELT3+mCda4khkN7LcX3ZeDlMfW1MFAmNMZPIXHGFyY2hsYW5A
+cHJvdG9ubWFpbC5jb20ACgkQX3ZeDlMfW1PnYRAAgnyywr8B15IULo3u7n+LxFMc
+ydOAkeUD4bBxxFfPcnKM4Ixlwbhhf93aKc8tfPBaof2ubryR842PSScuGcWtmNxa
+AH4w9bQMU9G4V/yC7x2qGXD2592AhrzQRqf1RZXZNdDUuYigjeTYGQ3wazWI5LsI
+3xgdVQnK3Av0GK6MSRzmBQfcftteF8p3LecY4Q1DQ0mjt6B2oGG1mGZsBWrQ8JXy
+04XaLWM7y5HftOHGki6SacRVakZ+iE6OvjrxQCp7L9QAfcf9zBWIZj5ipYP6/2C5
+sZkJIrbSd6EwpeeYv8g6t7WjCF8ClJJJGQNMEw2JfqMmiJ0kzxS2d8ryfuMwoGjn
+ZKOqkyw1enGDito/Qr6bX0QJpiQZDX5uO76LHBRxrb863aJtjSXGhlMfR/4rYsWx
+3owSngDWN5Mj97b7Yp0NjhIaMSOTLCWq52a1QXwJz6EE6Q/VOkV+YIMQdpEhXsAO
+PHXewgaP5EUY89xRTMCZMYfPPLe+m/43ZYXnDMjuQxYeoDDi+gezg/I1oqvkISmJ
+nvFg7VEOiiyjevnZ+1/eeAs4xOvccwm7KIYeEJZY3BMExbqkY904S3Met17EmlG6
+y5aAd2xm/hR+bNrR/Fvll0D8JKi4jQNR0q7NIr7hYrLDTxwQKj4inJKM9AVnHOyV
+dZ4jl9s2hrO0f6JxX4E=
+=ZmyK
+-----END PGP SIGNATURE-----
