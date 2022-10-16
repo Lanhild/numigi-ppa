@@ -38,5 +38,3 @@ main() {
 
     prompt_msg
 }
-
-    echo ""
