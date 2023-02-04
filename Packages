@@ -16,74 +16,39 @@ Description: Numigi GRUB bootloader customized theme
 License: agpl3
 Vendor: none
 
-Package: numigi-albert
-Version: 1.0
+Package: grub-theme-numigi
+Version: 1.2
 Architecture: all
 Maintainer: @Lanhild <archlan@protonmail.com>
-Installed-Size: 0
-Filename: ./numigi-albert-1.0-any.deb
-Size: 2008
-MD5sum: f957e061fb4054d2dd518e78a442025f
-SHA1: 662a1fc2240d54ce77010e91accaef90a77b3252
-SHA256: 5123e1c34e85b467d9b7214c90ffc0759a51d9a5608bc6ca40d198ca23410bd4
+Installed-Size: 2404
+Depends: grub2-common
+Filename: ./grub-theme-numigi-1.2-any.deb
+Size: 1188736
+MD5sum: 352ab4c450245c3efa0fcdce71d42e73
+SHA1: cc44a76cfe35745e4dd43658daf0822fd05af13a
+SHA256: ac9620a2cd428b9055c27231486607e78ef2b7974b2718acede2e194536f08b3
 Section: default
-Priority: extra
-Homepage: https://github.com/Lanhild/numigi-albert
-Description: Numigi installation script for Albert application launcher. Fetches from albertlauncher.github.io
+Priority: optional
+Homepage: https://github.com/Lanhild/grub-theme-numigi
+Description: Numigi GRUB bootloader customized theme
 License: agpl3
 Vendor: none
 
-Package: numigi-bitwarden
+Package: numigi-hooks
 Version: 1.0
 Architecture: all
-Maintainer: @Lanhild <archlan@protonmail.com>
-Installed-Size: 0
+Maintainer: @Lanhild <joliveau.loan@gmail.com>
+Installed-Size: 2
 Depends: apt-transport-https, curl
-Filename: ./numigi-bitwarden-1.0-any.deb
-Size: 1634
-MD5sum: a298ceaf149019bc2686a0f85109f4b1
-SHA1: c9de10ed727913a15d69105ca7f63210ead68c46
-SHA256: 95f6e39beada1ba192810e97bf22e2644f93eafd698af02f071340258f66b39f
+Filename: ./numigi-hooks-1.0-any.deb
+Size: 2612
+MD5sum: 39cf177d7d71d1e4e372bff412cd833a
+SHA1: c3a4eb45392507c4bffb50ec18cd02046f8a3775
+SHA256: e29adf62cb608bac4ef780720d397c5da53bd99e0a789ee6dbd460c168b81da3
 Section: default
-Priority: extra
-Homepage: https://github.com/Lanhild/numigi-bitwarden
-Description: Numigi installation script for Bitwarden. Fetches from bitwarden.com
-License: agpl3
-Vendor: none
-
-Package: numigi-brave
-Version: 1.0
-Architecture: all
-Maintainer: @Lanhild <archlan@protonmail.com>
-Installed-Size: 0
-Depends: apt-transport-https, curl
-Filename: ./numigi-brave-1.0-any.deb
-Size: 1978
-MD5sum: a858c79a299901751fdb0e8c8ece80b7
-SHA1: 023be422cc237cb0e3730d5e9c34ad38a7cd1a91
-SHA256: 7946304563ea6a58f6faed23291c48c0701e1eb0e64ff1ced1ddf83fdb4dd850
-Section: default
-Priority: extra
-Homepage: https://github.com/Lanhild/numigi-brave
-Description: Numigi installation script for Brave Browser. Fetches from brave.com
-License: agpl3
-Vendor: none
-
-Package: numigi-chrome
-Version: 1.0
-Architecture: all
-Maintainer: @Lanhild <archlan@protonmail.com>
-Installed-Size: 0
-Depends: apt-transport-https, curl
-Filename: ./numigi-chrome-1.0-any.deb
-Size: 1840
-MD5sum: 207d03d8044dc6e86df0698de5aaeace
-SHA1: 77ee45bfc60169da53dad48ac97bdbf5b273a69b
-SHA256: 2a64a0d7cd971fbafac3642ad26780ba2fb0794eb73346825d53005864f27551
-Section: default
-Priority: extra
-Homepage: https://github.com/Lanhild/numigi-chrome
-Description: Numigi installation script for Chrome Browser. Fetches from google.com
+Priority: optional
+Homepage: https://github.com/Lanhild/numigi-hooks
+Description: Numigi installation hooks for various third-party applications
 License: agpl3
 Vendor: none
 
@@ -172,6 +137,24 @@ SHA1: 407c67d32775d933ab0f3fc90d2faee112b3e817
 SHA256: 475c978198f8405aacc153586766a131fa651c9ba1e8d1f3b9af49e6467e3771
 Section: default
 Priority: extra
+Homepage: https://github.com/Lanhild/numigi-meta
+Description: Numigi blank metapackage used to install a group of packages present in the main repository
+License: agpl3
+Vendor: none
+
+Package: numigi-meta
+Version: 1.5
+Architecture: all
+Maintainer: @Lanhild <joliveau.loan@gmail.com>
+Installed-Size: 0
+Depends: numigi-hooks, libreoffice, flameshot, kazam, gimp, vlc, deja-dup, peek, firefox, google-chrome-stable, brave-browser, albert
+Filename: ./numigi-meta-1.5-any.deb
+Size: 1688
+MD5sum: 7fb592050e7560b43fd937c8ad2e8ca3
+SHA1: b15b624664422e8b0690f2c127dfbaac7abde0ca
+SHA256: 1b86c6955e8f9498422465230fde1df2ea92710d1149d6fc5b04bb0dc9d7f864
+Section: default
+Priority: optional
 Homepage: https://github.com/Lanhild/numigi-meta
 Description: Numigi blank metapackage used to install a group of packages present in the main repository
 License: agpl3
